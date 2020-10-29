@@ -1,10 +1,7 @@
-%define multiple_rpms 1
 %define rpm_device kirin
 
-%define dsd_path ./
+%define multiple_rpms 1
 
-Requires(post): coreutils
-Requires(post): libcap
-
+%include droid-system-common.inc
 %include droid-system-device/droid-system.inc
 
