@@ -1,4 +1,4 @@
-%define rpm_device mermaid
+%define rpm_device pdx201
 
 %define multiple_rpms 1
 
