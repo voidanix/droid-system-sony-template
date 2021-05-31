@@ -13,7 +13,7 @@ Obsoletes:     droid-system-vendor-%{habuild_device}-%{device}
 Summary:       Built certain sources trees such as /system for Droid HAL adaptations
 Version:       0.0.1
 Release:       1
-License:       Proprietary
+License:       %{system_license}
 Requires:      droid-system-%{habuild_device}
 Source0:       %{name}-%{version}.tgz
 Source1:       droid-system-%{habuild_device}-rpmlintrc
